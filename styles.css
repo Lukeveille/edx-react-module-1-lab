@@ -1,0 +1,48 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+main {
+  margin: 2em;
+  max-width: 900px;
+}
+table {
+  width: 95%;
+  border: 1px solid grey;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+h2 {
+  font-weight: 300;
+  color: #777;
+}
+p, td {
+  font-weight: 300;
+}
+th, td {
+  border: 1px solid #BBB;
+  padding: 10px;
+  width: 25%;
+  text-align: justify;
+}
+th {
+  background-color: #EEE;
+}
+ul {
+  text-align: center;
+  padding: 0;
+  margin: 1em;
+}
+button {
+  background-image: linear-gradient(#f1f1f1,#d9d1d1);
+  padding: 7px 18px;
+  font-weight: 700;
+  font-size: 0.8em;
+  border-radius: 3px;
+}
+button:hover {
+  cursor: pointer;
+  background-image: linear-gradient(#e0dfdf,#c0b7b7);
+}
+select {
+  font-size: 1em;
+}
